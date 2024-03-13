@@ -30,7 +30,7 @@
     "default_scheduler": "karras",
     "default_performance": "Speed",
     "default_prompt": "",
-    "default_prompt_negative": "",
+    "default_prompt_negative": "(embedding:unaestheticXLv31:0.8), low quality, watermark",
     "default_styles": [
         "Fooocus V2",
         "Fooocus Enhance",
@@ -42,7 +42,9 @@
         "bluePencilXL_v500.safetensors": "https://civitai.com/api/download/models/367359",
         "dreamshaper_8.safetensors": "https://civitai.com/api/download/models/128713?type=Model&format=SafeTensor&size=pruned&fp=fp16"
     },
-    "embeddings_downloads": {},
+    "embeddings_downloads": {
+        "unaestheticXL_Alb2.safetensors": "https://civitai.com/api/download/models/363593?type=Model&format=SafeTensor"
+    },
     "lora_downloads": {
         "sd_xl_offset_example-lora_1.0.safetensors": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_offset_example-lora_1.0.safetensors",
         "sdxl_offset_example_v10.safetensors": "https://civitai.com/api/download/models/151806?type=Model&format=SafeTensor"
